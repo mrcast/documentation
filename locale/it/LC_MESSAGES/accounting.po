@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Business 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-09 09:44+0100\n"
-"PO-Revision-Date: 2018-05-27 08:45+0200\n"
+"PO-Revision-Date: 2018-06-09 17:10+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5358,7 +5358,7 @@ msgstr "Registra una nuova fattura fornitore"
 
 #: ../../accounting/overview/process_overview/supplier_bill.rst:20
 msgid "When a vendor bill is received, you can record it from :menuselection:`Purchases --> Vendor Bills` in the Accounting application. As a shortcut, you can also use the **New Bill** feature on the accounting dashboard."
-msgstr "Quando viene ricevuta una fattura fornitore, è possibile registrarla da: menu selection: `Acquisti -> Fatture fornitore 'nell'applicazione Contabilità. Come scorciatoia, puoi anche utilizzare la funzione **Nuova bolletta** nella dashboard della contabilità."
+msgstr "Quando viene ricevuta una fattura fornitore, è possibile registrarla da: menu selection: `Acquisti -> Fatture fornitore 'nell'applicazione Contabilità. Come scorciatoia, puoi anche utilizzare la funzione **Nuova fattura** nella dashboard della contabilità."
 
 #: ../../accounting/overview/process_overview/supplier_bill.rst:27
 msgid "To register a new vendor bill, start by selecting a vendor and inputting their invoice as the **Vendor Reference**, then add and confirm the product lines, making sure to have the right product quantities, taxes and prices."
