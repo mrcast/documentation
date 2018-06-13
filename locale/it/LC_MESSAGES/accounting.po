@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Business 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-09 09:44+0100\n"
-"PO-Revision-Date: 2018-06-09 17:10+0200\n"
+"PO-Revision-Date: 2018-06-12 17:38+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1047,7 +1047,7 @@ msgstr "Dichiarazioni dei clienti"
 
 #: ../../accounting/bank/setup/foreign_currency.rst:98
 msgid "Customers and vendor statements are managed in the currency of the invoice. So, the amount due by your customer (to your vendor) is always expressed in the currency of the invoice."
-msgstr "I clienti e le dichiarazioni del venditore sono gestiti nella valuta della fattura. Pertanto, l'importo dovuto dal cliente (al tuo fornitore) è sempre espresso nella valuta della fattura."
+msgstr "I clienti e le dichiarazioni del fornitore sono gestiti nella valuta della fattura. Pertanto, l'importo dovuto dal cliente (al tuo fornitore) è sempre espresso nella valuta della fattura."
 
 #: ../../accounting/bank/setup/foreign_currency.rst:102
 msgid "If you have several invoices with different currencies for the same customer, Odoo will split the customer statement by currency, as shown in the report below."
@@ -1761,7 +1761,7 @@ msgstr "Verifica che tutte le **fatture clienti** siano state inserite e approva
 
 #: ../../accounting/others/adviser/fiscalyear.rst:15
 msgid "Confirm that you have entered and agreed all **vendor bills**."
-msgstr "Conferma di aver inserito e accettato tutte le **fatture del venditore**."
+msgstr "Conferma di aver inserito e accettato tutte le **fatture del fornitore**."
 
 #: ../../accounting/others/adviser/fiscalyear.rst:17
 msgid "Validate all **expenses**, ensuring their accuracy."
@@ -2760,7 +2760,7 @@ msgstr "Definizione del prezzo di acquisto"
 
 #: ../../accounting/others/inventory/avg_price_valuation.rst:38
 msgid "The purchase price is estimated at the reception of the products (you might not have received the vendor bill yet) and reevaluated at the reception of the vendor bill. The purchase price includes the cost you pay for the products, but it may also includes additional costs, like landed costs."
-msgstr "Il prezzo di acquisto è stimato alla ricezione dei prodotti (potrebbe non aver ancora ricevuto la fattura del venditore) e rivalutato alla ricezione della fattura del venditore. Il prezzo di acquisto include il costo che si paga per i prodotti, ma può anche includere costi aggiuntivi, come i costi logistici."
+msgstr "Il prezzo di acquisto è stimato alla ricezione dei prodotti (potrebbe non aver ancora ricevuto la fattura del fornitore) e rivalutato alla ricezione della fattura del fornitore. Il prezzo di acquisto include il costo che si paga per i prodotti, ma può anche includere costi aggiuntivi, come i costi logistici."
 
 #: ../../accounting/others/inventory/avg_price_valuation.rst:45
 msgid "Average cost example"
@@ -3029,7 +3029,7 @@ msgstr "($ 80)"
 
 #: ../../accounting/others/inventory/avg_price_valuation.rst:150
 msgid "Receive vendor bill $80"
-msgstr "Ricevi fattura del venditore $ 80"
+msgstr "Ricevi fattura del fornitore $ 80"
 
 #: ../../accounting/others/inventory/avg_price_valuation.rst:152
 msgid "($64)"
@@ -3049,7 +3049,7 @@ msgstr "**$12**"
 
 #: ../../accounting/others/inventory/avg_price_valuation.rst:160
 msgid "Receive vendor refund $10"
-msgstr "Ricevi il rimborso del venditore $ 10"
+msgstr "Ricevi il rimborso del fornitore $ 10"
 
 #: ../../accounting/others/inventory/avg_price_valuation.rst:160
 msgid "$2"
@@ -4555,19 +4555,19 @@ msgstr "Odoo è un software di contabilità progettato per le esigenze del 21esi
 
 #: ../../accounting/overview/main_concepts/intro.rst:15
 msgid "Odoo connects directly to your bank or paypal account. Transactions are synchronized every hour and reconciliation is blazing fast. It's like magic."
-msgstr "Odoo si collega direttamente alla tua banca o al tuo account paypal. Le transazioni sono sincronizzate ogni ora e la riconciliazione è rapida. È come una magia."
+msgstr "Odoo si collega direttamente alla tua banca o al tuo account paypal. Le transazioni sono sincronizzate ogni ora e la riconciliazione è rapida. "
 
 #: ../../accounting/overview/main_concepts/intro.rst:18
 msgid "Instantly create invoices and send them with just a click. No need to print them."
-msgstr "Crea istantaneamente fatture e inviale con un semplice clic. Non c'è bisogno di stamparle."
+msgstr "Con Odoo puoi creare istantaneamente fatture e inviarle con un semplice clic. Non c'è bisogno di stamparle."
 
 #: ../../accounting/overview/main_concepts/intro.rst:20
 msgid "Odoo can send them for you by email or regular mail."
-msgstr "Odoo può inviarli per e-mail o posta ordinaria."
+msgstr "Odoo può inviare i documenti per e-mail o può generare la stampa per invio tramite posta ordinaria."
 
 #: ../../accounting/overview/main_concepts/intro.rst:22
 msgid "Your customers pay online, meaning you get your money right away."
-msgstr "I tuoi clienti pagano online, il che significa che ottieni subito i tuoi soldi."
+msgstr "Con il pagamento online da parte dei tuoi clienti, puoi ottenere un incasso immediato"
 
 #: ../../accounting/overview/main_concepts/intro.rst:24
 msgid "Odoo accounting is connected with all Odoo our apps such as sale, purchase, inventory and subscriptions."
@@ -4575,7 +4575,7 @@ msgstr "La Contabilità di Odoo è collegata a tutte le nostre app Odoo come ven
 
 #: ../../accounting/overview/main_concepts/intro.rst:27
 msgid "This way, recording vendor bills is also super quick. Set a vendor, select the purchase order and Odoo fills in everything for you automatically."
-msgstr "In questo modo, la registrazione delle fatture dei fornitori è anche super veloce. Imposta un venditore, seleziona l'ordine d'acquisto e Odoo riempie tutto automaticamente."
+msgstr "In questo modo, la registrazione delle fatture dei fornitori è anche super veloce. Imposta un fornitore, seleziona l'ordine d'acquisto e Odoo riempie tutto automaticamente."
 
 #: ../../accounting/overview/main_concepts/intro.rst:30
 msgid "Then, just use the SEPA protocol or print checks to pay vendors in batches."
@@ -4595,7 +4595,7 @@ msgstr "Ovviamente anche Odoo è mobile. Puoi usarlo per controllare i tuoi cont
 
 #: ../../accounting/overview/main_concepts/intro.rst:41
 msgid "Try Odoo now, and join 2 millions of happy users."
-msgstr "Prova Odoo ora e unisciti a 2 milioni di utenti felici."
+msgstr "Prova Odoo ora e unisciti a 3 milioni di utenti felici."
 
 #: ../../accounting/overview/main_concepts/memento.rst:5
 msgid "Accounting Memento For Entrepreneurs (US GAAP)"
@@ -5342,7 +5342,7 @@ msgstr "Da fatture fornitore a pagamenti"
 
 #: ../../accounting/overview/process_overview/supplier_bill.rst:5
 msgid "Once vendor bills are registered in Odoo, you can easily pay vendors for the correct amount and at the right time (not too late, not too early; depending on your vendor policy). Odoo also offers reports to track your aged payable balances."
-msgstr "Una volta che le fatture del venditore sono state registrate in Odoo, puoi facilmente pagare i venditori per l'importo corretto e al momento giusto (non troppo tardi, non troppo presto, a seconda della politica del fornitore). Odoo offre anche rapporti per tenere traccia dei saldi di vecchiaia pagabili."
+msgstr "Una volta che le fatture del fornitore sono state registrate in Odoo, puoi facilmente pagare i venditori per l'importo corretto e al momento giusto (non troppo tardi, non troppo presto, a seconda della politica del fornitore). Odoo offre anche rapporti per tenere traccia dei saldi di vecchiaia pagabili."
 
 #: ../../accounting/overview/process_overview/supplier_bill.rst:10
 msgid "If you want to control vendor bills received from your vendors, you can use the Odoo Purchase application that allows you to control and pre-complete them automatically based on past purchase orders."
@@ -5350,7 +5350,7 @@ msgstr "Se si desidera controllare le fatture dei fornitori ricevute dai fornito
 
 #: ../../accounting/overview/process_overview/supplier_bill.rst:15
 msgid "From Vendor Bill to Payment"
-msgstr "Dalla fattura del venditore al pagamento"
+msgstr "Dalla fattura del fornitore al pagamento"
 
 #: ../../accounting/overview/process_overview/supplier_bill.rst:18
 msgid "Record a new vendor bill"
@@ -5370,15 +5370,15 @@ msgstr "Salva la fattura per aggiornare gli importi pre-imposte e imposte nella 
 
 #: ../../accounting/overview/process_overview/supplier_bill.rst:40
 msgid "On the bottom left corner, Odoo shows a summary table of all taxes on the vendor bill. In several countries, different methods are accepted to round the totals (round per line, or round globally). The default rounding method in Odoo is to round the final prices per line (as you may have different taxes per product. E.g. Alcohol and cigarettes). However if your vendor has a different tax amount on their bill, you can change the amount in the bottom left table to adjust and match."
-msgstr "Nell'angolo in basso a sinistra, Odoo mostra una tabella riassuntiva di tutte le imposte sulla fattura del venditore. In diversi paesi, sono accettati diversi metodi per arrotondare i totali (arrotondamento per linea o round globalmente). Il metodo di arrotondamento predefinito in Odoo consiste nell'arrotondare i prezzi finali per riga (poiché potresti avere imposte diverse per prodotto, ad esempio alcol e sigarette). Tuttavia, se il venditore ha un importo di imposta diverso sulla fattura, è possibile modificare l'importo nella tabella in basso a sinistra per regolare e abbinare."
+msgstr "Nell'angolo in basso a sinistra, Odoo mostra una tabella riassuntiva di tutte le imposte sulla fattura del fornitore. In diversi paesi, sono accettati diversi metodi per arrotondare i totali (arrotondamento per linea o round globalmente). Il metodo di arrotondamento predefinito in Odoo consiste nell'arrotondare i prezzi finali per riga (poiché potresti avere imposte diverse per prodotto, ad esempio alcol e sigarette). Tuttavia, se il fornitore ha un importo di imposta diverso sulla fattura, è possibile modificare l'importo nella tabella in basso a sinistra per regolare e abbinare."
 
 #: ../../accounting/overview/process_overview/supplier_bill.rst:48
 msgid "Validate The Vendor Bill"
-msgstr "Convalida la fattura del venditore"
+msgstr "Convalida la fattura del fornitore"
 
 #: ../../accounting/overview/process_overview/supplier_bill.rst:50
 msgid "Once the vendor bill is validated, a journal entry will be generated based on the configuration on the invoice. This journal entry may differ depending on the the accounting package you choose to use."
-msgstr "Una volta convalidata la fattura del venditore, verrà generata una registrazione sezionale in base alla configurazione della fattura. Questa registrazione sezionale potrebbe differire in base al pacchetto contabile che si sceglie di utilizzare."
+msgstr "Una volta convalidata la fattura del fornitore, verrà generata una registrazione sezionale in base alla configurazione della fattura. Questa registrazione sezionale potrebbe differire in base al pacchetto contabile che si sceglie di utilizzare."
 
 #: ../../accounting/overview/process_overview/supplier_bill.rst:54
 msgid "For most European countries, the journal entry will use the following accounts:"
@@ -5420,11 +5420,11 @@ msgstr "Per creare direttamente un pagamento per una fattura fornitore aperta, p
 
 #: ../../accounting/overview/process_overview/supplier_bill.rst:82
 msgid "From there, you select the payment method (i.e. Checking account, credit card, check, etc…) and the amount you wish to pay. By default, Odoo will propose the entire remaining balance on the bill for payment. In the memo field, we recommend you set the vendor invoice number as a reference (Odoo will auto fill this field from the from the vendor bill if set it correctly)."
-msgstr "Da lì, si seleziona il metodo di pagamento (es. Conto corrente, carta di credito, assegno, ecc.) E l'importo che si desidera pagare. Per impostazione predefinita, Odoo proporrà l'intero saldo rimanente sulla fattura per il pagamento. Nel campo della nota, ti consigliamo di impostare il numero della fattura del fornitore come riferimento (Odoo riempirà automaticamente questo campo dalla fattura del venditore se impostato correttamente)."
+msgstr "Da lì, si seleziona il metodo di pagamento (es. Conto corrente, carta di credito, assegno, ecc.) E l'importo che si desidera pagare. Per impostazione predefinita, Odoo proporrà l'intero saldo rimanente sulla fattura per il pagamento. Nel campo della nota, ti consigliamo di impostare il numero della fattura del fornitore come riferimento (Odoo riempirà automaticamente questo campo dalla fattura del fornitore se impostato correttamente)."
 
 #: ../../accounting/overview/process_overview/supplier_bill.rst:94
 msgid "You can also register a payment to a vendor directly without applying it to a vendor bill. To do that, :menuselection:`Purchases --> Payments`. Then, from the vendor bill you will be able to reconcile this payment with directly."
-msgstr "È anche possibile registrare un pagamento direttamente a un fornitore senza applicarlo a una fattura del fornitore. Per farlo,: menuelezione: `Acquisti -> Pagamenti`. Quindi, dalla fattura del venditore sarà possibile riconciliare questo pagamento con direttamente."
+msgstr "È anche possibile registrare un pagamento direttamente a un fornitore senza applicarlo a una fattura del fornitore. Per farlo,: menuelezione: `Acquisti -> Pagamenti`. Quindi, dalla fattura del fornitore sarà possibile riconciliare questo pagamento con direttamente."
 
 #: ../../accounting/overview/process_overview/supplier_bill.rst:99
 msgid "Printing vendor Checks"
@@ -5452,7 +5452,7 @@ msgstr "Saldo debiti maturati"
 
 #: ../../accounting/overview/process_overview/supplier_bill.rst:129
 msgid "In order to get a list of open vendor bills and their related due dates, you can use the **Aged Payable** report, under the reporting menu, (in :menuselection:`Reporting --> Business Statement --> Aged payable`) to get a visual of all of your outstanding bills."
-msgstr "Per ottenere un elenco delle fatture aperte del venditore e delle relative scadenze correlate, puoi utilizzare il rapporto **Debiti maturati**, nel menu dei rapporti, (in: menuelection: `Reporting -> Business Statement -> Aged payable `) per ottenere una visualizzazione di tutte le fatture in sospeso."
+msgstr "Per ottenere un elenco delle fatture aperte del fornitore e delle relative scadenze correlate, puoi utilizzare il rapporto **Debiti maturati**, nel menu dei rapporti, (in: menuelection: `Reporting -> Business Statement -> Aged payable `) per ottenere una visualizzazione di tutte le fatture in sospeso."
 
 #: ../../accounting/overview/process_overview/supplier_bill.rst:137
 msgid "From here, you can click directly on a vendors name to open up the details of all outstanding bills and the amounts due, or you can annotate any line for managements information. At any point in time while you're looking through the report, you can print directly to Excel or PDF and get exactly what you see on the screen."
@@ -5590,7 +5590,7 @@ msgstr "il contabile pubblica le registrazioni sezionale"
 
 #: ../../accounting/payables/misc/employee_expense.rst:91
 msgid "the company reimburse the employee expense (the employee is like a vendor, with a payable account)"
-msgstr "la società rimborsa la spesa dei dipendenti (il dipendente è come un venditore, con un conto pagabile)"
+msgstr "la società rimborsa la spesa dei dipendenti (il dipendente è come un fornitore, con un conto pagabile)"
 
 #: ../../accounting/payables/misc/employee_expense.rst:94
 msgid "if the expense is linked to an analytic account, the company can reinvoice the customer"
@@ -5722,7 +5722,7 @@ msgstr "Come prevedere le future fatture da pagare?"
 
 #: ../../accounting/payables/misc/forecast.rst:5
 msgid "When you get hundreds of vendor bills per month with each of them having different payment terms, it could be complex to follow what you have to pay and when. Paying your vendors too early can decrease your cash availabilities and paying too late can lead to extra charges."
-msgstr "Quando ricevi centinaia di fatture al mese per venditore con termini di pagamento diversi, potrebbe essere complesso seguire ciò che devi pagare e quando. Pagare i tuoi fornitori troppo presto può ridurre le tue disponibilità di cassa e pagare troppo tardi può comportare costi aggiuntivi."
+msgstr "Quando ricevi centinaia di fatture al mese per fornitore con termini di pagamento diversi, potrebbe essere complesso seguire ciò che devi pagare e quando. Pagare i tuoi fornitori troppo presto può ridurre le tue disponibilità di cassa e pagare troppo tardi può comportare costi aggiuntivi."
 
 #: ../../accounting/payables/misc/forecast.rst:10
 msgid "Fortunately, Odoo provides you the right tools to manage payment orders to vendors efficiently."
@@ -5734,7 +5734,7 @@ msgstr "Configurazione: termini di pagamento"
 
 #: ../../accounting/payables/misc/forecast.rst:16
 msgid "In order to track the vendor conditions, we use payment terms in Odoo. Payment terms allow to keep track of the conditions to compute the due date on an invoice. As an example, a payment term can be:"
-msgstr "Per tenere traccia delle condizioni del venditore, utilizziamo i termini di pagamento in Odoo. I termini di pagamento consentono di tenere traccia delle condizioni per calcolare la data di scadenza in una fattura. Ad esempio, un termine di pagamento può essere:"
+msgstr "Per tenere traccia delle condizioni del fornitore, utilizziamo i termini di pagamento in Odoo. I termini di pagamento consentono di tenere traccia delle condizioni per calcolare la data di scadenza in una fattura. Ad esempio, un termine di pagamento può essere:"
 
 #: ../../accounting/payables/misc/forecast.rst:20
 msgid "50% within 30 days"
@@ -5763,7 +5763,7 @@ msgstr "Previsioni da pagare con la relazione dei debiti scaduti"
 
 #: ../../accounting/payables/misc/forecast.rst:48
 msgid "In order to track amounts to be paid to the vendors, use the Aged Payable report. You can get it from the Reports menu of the Accounting application. This report gives you a summary per vendor of the amounts to pay, compared to their due date (the due date being computed on each bill using the payment term)."
-msgstr "Per tenere traccia degli importi da pagare ai fornitori, utilizzare il report Pagamenti obsoleti. Puoi ottenerlo dal menu Rapporti dell'applicazione Contabilità. Questo rapporto fornisce un riepilogo per venditore degli importi da pagare, rispetto alla loro data di scadenza (la data di scadenza viene calcolata su ogni fattura utilizzando il termine di pagamento)."
+msgstr "Per tenere traccia degli importi da pagare ai fornitori, utilizzare il report Pagamenti obsoleti. Puoi ottenerlo dal menu Rapporti dell'applicazione Contabilità. Questo rapporto fornisce un riepilogo per fornitore degli importi da pagare, rispetto alla loro data di scadenza (la data di scadenza viene calcolata su ogni fattura utilizzando il termine di pagamento)."
 
 #: ../../accounting/payables/misc/forecast.rst:57
 msgid "This reports tells you how much you will have to pay within the next months."
@@ -6048,7 +6048,7 @@ msgstr "Questo gestirà da: menuelezione: `Dashboard -> Giornale bancario -> Alt
 
 #: ../../accounting/payables/pay/multiple.rst:84
 msgid "Creating payment order with check payment method. Selecting related Vendor and amount which remain to pay. After filling all details, we will confirm the payment order which will generate payment transaction with the system."
-msgstr "Creazione dell'ordine di pagamento con metodo di pagamento assegno. Selezione del venditore correlato e importo che rimane da pagare. Dopo aver riempito tutti i dettagli, confermeremo l'ordine di pagamento che genererà la transazione di pagamento con il sistema."
+msgstr "Creazione dell'ordine di pagamento con metodo di pagamento assegno. Selezione del fornitore correlato e importo che rimane da pagare. Dopo aver riempito tutti i dettagli, confermeremo l'ordine di pagamento che genererà la transazione di pagamento con il sistema."
 
 #: ../../accounting/payables/pay/multiple.rst:92
 msgid "As you can see, bill payment status show what is posted and what is remaining to reconcile."
@@ -6080,7 +6080,7 @@ msgstr "Stiamo creando più fatture e in parte li paghiamo tramite estratti cont
 
 #: ../../accounting/payables/pay/multiple.rst:118
 msgid "We are adding payment terms which allow some cash discount where vendor offer us early payment discount."
-msgstr "Stiamo aggiungendo termini di pagamento che consentono uno sconto di cassa in cui il venditore ci offre uno sconto di pagamento anticipato."
+msgstr "Stiamo aggiungendo termini di pagamento che consentono uno sconto di cassa in cui il fornitore ci offre uno sconto di pagamento anticipato."
 
 #: ../../accounting/payables/pay/multiple.rst:124
 msgid "We are creating the following bills with the assignment of the above payment term."
@@ -6121,7 +6121,7 @@ msgstr "La SEPA è sostenuta dalle banche dei 28 Stati membri dell'UE, nonché d
 
 #: ../../accounting/payables/pay/sepa.rst:13
 msgid "With Odoo, once you decide to pay a vendor, you can select to pay the bill with SEPA. Then, at the end of the day, the manager can generate the SEPA file containing all bank wire transfers and send it to the bank. The file follows the SEPA Credit Transfer 'PAIN.001.001.03' specifications. This is a well-defined standard that makes consensus among banks."
-msgstr "Con Odoo, una volta che si decide di pagare un venditore, è possibile scegliere di pagare il conto con SEPA. Quindi, alla fine della giornata, il gestore può generare il file SEPA contenente tutti i bonifici bancari e inviarlo alla banca. Il file segue le specifiche per il bonifico SEPA \"PAIN.001.001.03\". Questo è uno standard ben definito che crea consenso tra le banche."
+msgstr "Con Odoo, una volta che si decide di pagare un fornitore, è possibile scegliere di pagare il conto con SEPA. Quindi, alla fine della giornata, il gestore può generare il file SEPA contenente tutti i bonifici bancari e inviarlo alla banca. Il file segue le specifiche per il bonifico SEPA \"PAIN.001.001.03\". Questo è uno standard ben definito che crea consenso tra le banche."
 
 #: ../../accounting/payables/pay/sepa.rst:20
 msgid "Once the payments are processed by your bank, you can directly import the account statement inside Odoo. The bank reconciliation process will seamlessly match the SEPA orders you sent to your bank with actual bank statements."
@@ -6177,7 +6177,7 @@ msgstr "Se si paga una fattura fornitore specifica, inserire il riferimento dell
 
 #: ../../accounting/payables/pay/sepa.rst:90
 msgid "Once your payment is registered, don't forget to Confirm it. You can also pay vendor bills from the bill directly using the Register Payment button on top of a vendor bill. The form is the same, but the payment is directly linked to the bill and will be automatically reconciled to it."
-msgstr "Una volta registrato il pagamento, non dimenticare di confermare. Puoi anche pagare le fatture del fornitore direttamente dal conto utilizzando il pulsante Registra pagamento in cima alla fattura del venditore. Il modulo è lo stesso, ma il pagamento è direttamente collegato al conto e sarà automaticamente riconciliato con esso."
+msgstr "Una volta registrato il pagamento, non dimenticare di confermare. Puoi anche pagare le fatture del fornitore direttamente dal conto utilizzando il pulsante Registra pagamento in cima alla fattura del fornitore. Il modulo è lo stesso, ma il pagamento è direttamente collegato al conto e sarà automaticamente riconciliato con esso."
 
 #: ../../accounting/payables/pay/sepa.rst:96
 msgid "Generate SEPA files"
@@ -6224,11 +6224,11 @@ msgstr "Quando dovrei usare le fatture del fornitore o le ricevute di acquisto?"
 
 #: ../../accounting/payables/supplier_bills/bills_or_receipts.rst:5
 msgid "Purchase receipts are different than vendor bills. Vendor bills are requests for payment. If I issue a Purchase Order my vendor will in most business cases send me a Vendor Bill. Depending on his invoice policy I then have a defined amount of time to pay the Bill. A Purchase receipts are confirmations of received payments. They are my day-to-day ticket receipts."
-msgstr "Le ricevute di acquisto sono diverse dalle fatture del fornitore. Le fatture del venditore sono richieste di pagamento. Se emetto un ordine d'acquisto, il mio fornitore, nella maggior parte dei casi aziendali, mi invierà una fattura fornitore. A seconda della sua politica di fatturazione, ho quindi una quantità definita di tempo per pagare il conto. Le ricevute di acquisto sono conferme dei pagamenti ricevuti. Sono le mie ricevute di biglietti giornaliere."
+msgstr "Le ricevute di acquisto sono diverse dalle fatture del fornitore. Le fatture del fornitore sono richieste di pagamento. Se emetto un ordine d'acquisto, il mio fornitore, nella maggior parte dei casi aziendali, mi invierà una fattura fornitore. A seconda della sua politica di fatturazione, ho quindi una quantità definita di tempo per pagare il conto. Le ricevute di acquisto sono conferme dei pagamenti ricevuti. Sono le mie ricevute di biglietti giornaliere."
 
 #: ../../accounting/payables/supplier_bills/bills_or_receipts.rst:12
 msgid "From an accounting point of view this makes a difference as a Vendor Bill will first credit a debt account before reconciling with the bank account. On the other hand we usually immediately pay the purchase receipts, which means no debt account is necessary."
-msgstr "Da un punto di vista contabile ciò fa la differenza, in quanto una fattura del venditore accrediterà prima un conto del debito prima della riconciliazione con il conto bancario. D'altra parte di solito paghiamo immediatamente le ricevute di acquisto, il che significa che non è necessario un conto di debito."
+msgstr "Da un punto di vista contabile ciò fa la differenza, in quanto una fattura del fornitore accrediterà prima un conto del debito prima della riconciliazione con il conto bancario. D'altra parte di solito paghiamo immediatamente le ricevute di acquisto, il che significa che non è necessario un conto di debito."
 
 #: ../../accounting/payables/supplier_bills/bills_or_receipts.rst:17
 msgid "Moreover purchase receipts can have a different tax amount per product line, as vendors bills apply one tax amount over the entire bill."
@@ -6352,7 +6352,7 @@ msgstr "Acquisto di prodotti o servizi"
 
 #: ../../accounting/payables/supplier_bills/manage.rst:75
 msgid "From the purchase application, you can create a purchase order with as many products as you need. If the vendor sends you a confirmation or quotation for an order, you may record the order reference number in the **Vendor Reference** field. This will enable you to easily match the PO with the the vendor bill later (as the vendor bill will probably include the Vendor Reference)"
-msgstr "Dall'applicazione di acquisto, è possibile creare un ordine di acquisto con tutti i prodotti necessari. Se il venditore invia una conferma o un preventivo per un ordine, è possibile registrare il numero di riferimento dell'ordine nel campo **Riferimento fornitore**. Ciò ti consentirà di abbinare facilmente l'ordine di acquisto con la fattura del fornitore in un secondo momento (poiché la fattura del venditore includerà probabilmente il riferimento del fornitore)"
+msgstr "Dall'applicazione di acquisto, è possibile creare un ordine di acquisto con tutti i prodotti necessari. Se il fornitore invia una conferma o un preventivo per un ordine, è possibile registrare il numero di riferimento dell'ordine nel campo **Riferimento fornitore**. Ciò ti consentirà di abbinare facilmente l'ordine di acquisto con la fattura del fornitore in un secondo momento (poiché la fattura del fornitore includerà probabilmente il riferimento del fornitore)"
 
 #: ../../accounting/payables/supplier_bills/manage.rst:85
 msgid "Validate the purchase order and receive the products from the Inventory application."
@@ -6388,7 +6388,7 @@ msgstr "Quando ricevi una fattura fornitore per un acquisto precedente, assicura
 
 #: ../../accounting/payables/supplier_bills/manage.rst:130
 msgid "The first thing you will need to do upon creating a Vendor Bill is to select the appropriate Vendor as this will also pull up any associated accounting or pricelist information. From there, you can choose to specify any one or multiple Purchase Orders to populate the Vendor Bill with. When you select a Purchase Order from the list, Odoo will pull any uninvoiced products associated to that Purchase Order and automatically populate that information below. If you are having a hard time finding the appropriate Vendor bill, you may search through the list by inputting the vendor reference number or your internal purchase order number."
-msgstr "La prima cosa che dovrai fare al momento di creare una fattura del venditore è selezionare il fornitore appropriato, in quanto ciò farà emergere anche qualsiasi informazione contabile o di listino prezzi associata. Da lì, è possibile scegliere di specificare uno o più ordini di acquisto per compilare la fattura fornitore. Quando si seleziona un ordine d'acquisto dall'elenco, Odoo ritirerà tutti i prodotti non inviati associati a tale ordine d'acquisto e popolerà automaticamente tali informazioni di seguito. Se hai difficoltà a trovare la fattura del fornitore appropriata, puoi cercare nell'elenco inserendo il numero di riferimento del venditore o il numero di ordine di acquisto interno."
+msgstr "La prima cosa che dovrai fare al momento di creare una fattura del fornitore è selezionare il fornitore appropriato, in quanto ciò farà emergere anche qualsiasi informazione contabile o di listino prezzi associata. Da lì, è possibile scegliere di specificare uno o più ordini di acquisto per compilare la fattura fornitore. Quando si seleziona un ordine d'acquisto dall'elenco, Odoo ritirerà tutti i prodotti non inviati associati a tale ordine d'acquisto e popolerà automaticamente tali informazioni di seguito. Se hai difficoltà a trovare la fattura del fornitore appropriata, puoi cercare nell'elenco inserendo il numero di riferimento del fornitore o il numero di ordine di acquisto interno."
 
 #: ../../accounting/payables/supplier_bills/manage.rst:144
 msgid "While the invoice is in draft state, you can make any modifications you need (i.e. remove or add product lines, modify quantities, and change prices)."
@@ -6396,7 +6396,7 @@ msgstr "Mentre la fattura è in stato di bozza, puoi apportare le modifiche nece
 
 #: ../../accounting/payables/supplier_bills/manage.rst:150
 msgid "Your vendor may send you several bills for the same Purchase Order if:"
-msgstr "Il venditore può inviarti più fatture per lo stesso ordine d'acquisto se:"
+msgstr "Il fornitore può inviarti più fatture per lo stesso ordine d'acquisto se:"
 
 #: ../../accounting/payables/supplier_bills/manage.rst:152
 msgid "Your vendor is in back-order and is sending you invoices as they ship the products."
@@ -6404,11 +6404,11 @@ msgstr "Il tuo fornitore è in back-order e ti sta inviando le fatture mentre sp
 
 #: ../../accounting/payables/supplier_bills/manage.rst:153
 msgid "Your vendor is sending you a partial bill or asking for a deposit."
-msgstr "Il venditore ti invia una fattura parziale o richiede un deposito."
+msgstr "Il fornitore ti invia una fattura parziale o richiede un deposito."
 
 #: ../../accounting/payables/supplier_bills/manage.rst:155
 msgid "Every time you record a new vendor bill, Odoo will automatically populate the product quantities based on what has been received from the vendor. If this value is showing a zero, this means that you have not yet received this product and simply serves as a reminder that the product is not in hand and you may need to inquire further into this. At any point in time, before you validate the Vendor Bill, you may override this zero quantity."
-msgstr "Ogni volta che si registra una nuova fattura fornitore, Odoo compilerà automaticamente le quantità del prodotto in base a quanto ricevuto dal fornitore. Se questo valore indica zero, significa che non hai ancora ricevuto questo prodotto e serve semplicemente a ricordare che il prodotto non è disponibile e potresti doverti approfondire ulteriormente. In qualsiasi momento, prima di convalidare la fattura del venditore, è possibile sovrascrivere questa quantità zero."
+msgstr "Ogni volta che si registra una nuova fattura fornitore, Odoo compilerà automaticamente le quantità del prodotto in base a quanto ricevuto dal fornitore. Se questo valore indica zero, significa che non hai ancora ricevuto questo prodotto e serve semplicemente a ricordare che il prodotto non è disponibile e potresti doverti approfondire ulteriormente. In qualsiasi momento, prima di convalidare la fattura del fornitore, è possibile sovrascrivere questa quantità zero."
 
 #: ../../accounting/payables/supplier_bills/manage.rst:164
 msgid "Vendor Bill Matching"
@@ -6420,11 +6420,11 @@ msgstr "Cosa fare se la fattura del fornitore non corrisponde a ciò che hai ric
 
 #: ../../accounting/payables/supplier_bills/manage.rst:169
 msgid "If the bill you receive from the vendor has different quantities than what Odoo automatically populates as quantities, this could be due to several reasons:"
-msgstr "Se il conto ricevuto dal venditore ha quantità diverse da quelle che Odoo automaticamente compila come quantità, ciò potrebbe essere dovuto a diversi motivi:"
+msgstr "Se il conto ricevuto dal fornitore ha quantità diverse da quelle che Odoo automaticamente compila come quantità, ciò potrebbe essere dovuto a diversi motivi:"
 
 #: ../../accounting/payables/supplier_bills/manage.rst:173
 msgid "the vendor is incorrectly charging you for products and/or services that you have not ordered,"
-msgstr "il venditore non addebita in modo errato per prodotti e / o servizi che non hai ordinato,"
+msgstr "il fornitore non addebita in modo errato per prodotti e / o servizi che non hai ordinato,"
 
 #: ../../accounting/payables/supplier_bills/manage.rst:176
 msgid "the vendor is billing you for products that you might not have received yet, as the invoicing control may be based on ordered or received quantities,"
@@ -6432,7 +6432,7 @@ msgstr "il fornitore ti sta fatturando per prodotti che potresti non aver ancora
 
 #: ../../accounting/payables/supplier_bills/manage.rst:180
 msgid "or the vendor did not bill you for previously purchased products."
-msgstr "o il venditore non ti ha fatturato per i prodotti acquistati in precedenza."
+msgstr "o il fornitore non ti ha fatturato per i prodotti acquistati in precedenza."
 
 #: ../../accounting/payables/supplier_bills/manage.rst:182
 msgid "In these instances it is recommended that you verify that the bill, and any associated purchase order to the vendor, are accurate and that you understand what you have ordered and what you have already received."
@@ -6448,11 +6448,11 @@ msgstr "il fornitore ti ha già fatturato per questo ordine d'acquisto, pertanto
 
 #: ../../accounting/payables/supplier_bills/manage.rst:192
 msgid "someone in the company forgot to record a purchase order for this vendor,"
-msgstr "qualcuno in azienda ha dimenticato di registrare un ordine di acquisto per questo venditore,"
+msgstr "qualcuno in azienda ha dimenticato di registrare un ordine di acquisto per questo fornitore,"
 
 #: ../../accounting/payables/supplier_bills/manage.rst:195
 msgid "or the vendor is charging you for something you did not order."
-msgstr "o il venditore ti sta addebitando per qualcosa che non hai ordinato."
+msgstr "o il fornitore ti sta addebitando per qualcosa che non hai ordinato."
 
 #: ../../accounting/payables/supplier_bills/manage.rst:200
 msgid "How product quantities are managed"
@@ -6969,7 +6969,7 @@ msgstr "La fattura prima della consegna viene solitamente utilizzata dall'applic
 
 #: ../../accounting/receivables/customer_invoices/overview.rst:37
 msgid "For most other use cases, it's recommended to invoice manually. It allows the salesperson to trigger the invoice on demand with options: invoice the whole order, invoice a percentage (advance), invoice some lines, invoice a fixed advance."
-msgstr "Per la maggior parte degli altri casi d'uso, si consiglia di fatturare manualmente. Consente al venditore di attivare la fattura su richiesta con opzioni: fatturare l'intero ordine, fatturare una percentuale (anticipo), fatturare alcune righe, fatturare un anticipo fisso."
+msgstr "Per la maggior parte degli altri casi d'uso, si consiglia di fatturare manualmente. Consente al fornitore di attivare la fattura su richiesta con opzioni: fatturare l'intero ordine, fatturare una percentuale (anticipo), fatturare alcune righe, fatturare un anticipo fisso."
 
 #: ../../accounting/receivables/customer_invoices/overview.rst:42
 msgid "This process is good for both services and physical products."
@@ -7689,7 +7689,7 @@ msgstr "Se un pagamento è collegato a una fattura, riduce l'importo dovuto dell
 
 #: ../../accounting/receivables/customer_payments/recording.rst:12
 msgid "If a payment is not linked to an invoice, the customer has an outstanding credit with your company, or your company as an outstanding balance with a vendor. You can use this outstanding credit/debit to pay future invoices or bills."
-msgstr "Se un pagamento non è collegato a una fattura, il cliente ha un credito eccezionale con la tua azienda o la tua azienda come saldo in sospeso con un venditore. È possibile utilizzare questo credito / debito in sospeso per pagare fatture o fatture future."
+msgstr "Se un pagamento non è collegato a una fattura, il cliente ha un credito eccezionale con la tua azienda o la tua azienda come saldo in sospeso con un fornitore. È possibile utilizzare questo credito / debito in sospeso per pagare fatture o fatture future."
 
 #: ../../accounting/receivables/customer_payments/recording.rst:18
 msgid "Paying an invoice"
